@@ -212,12 +212,12 @@ const agentPortalDropdown = computed(() => [
   {
     icon: "life-buoy",
     label: "Support",
-    onClick: () => window.open("https://t.me/frappedesk"),
+    onClick: () => window.open("support.taskforgehq.com"),
   },
   {
     icon: "book-open",
     label: "Docs",
-    onClick: () => window.open("https://docs.frappe.io/helpdesk"),
+    onClick: () => window.open("https://taskforgehq.com"),
   },
   {
     label: "Log out",

@@ -148,9 +148,9 @@
       v-model="showHelpModal"
       v-model:articles="articles"
       appName="helpdesk"
-      title="Frappe Helpdesk"
+      title="TaskforgeHQ Helpdesk"
       :logo="logo"
-      docsLink="https://docs.frappe.io/helpdesk"
+      docsLink="https://taskforgehq.com"
       :afterSkip="(step) => capture('onboarding_step_skipped_' + step)"
       :afterSkipAll="() => capture('onboarding_steps_skipped')"
       :afterReset="(step) => capture('onboarding_step_reset_' + step)"
@@ -319,7 +319,7 @@ const agentPortalDropdown = computed(() => [
   {
     icon: "book-open",
     label: "Docs",
-    onClick: () => window.open("https://docs.frappe.io/helpdesk"),
+    onClick: () => window.open("https://taskforgehq.com"),
   },
   {
     label: "Login to Frappe Cloud",
@@ -585,7 +585,7 @@ const articles = ref([
     ],
   },
   {
-    title: "Frappe Helpdesk Mobile",
+    title: "TaskforgeHQ Helpdesk Mobile",
     opened: false,
     subArticles: [
       { name: "pwa-installation", title: "Mobile App Installation" },

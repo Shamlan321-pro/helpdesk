@@ -13,12 +13,11 @@ to communicate and serve customers well.
 You can get started right away by setting up a support email. This will help you see what
 your support will look like with Helpdesk!
 <br><br>
-If you face any issues, please reach out to us via <a href="https://support.frappe.io/helpdesk">
-https://support.frappe.io/helpdesk</a>
+If you face any issues, please reach out to us via <a href="https://support.taskforgehq.com">
+https://support.taskforgehq.com</a>
 <br><br>
 Best,
 <br>
-Ritvik Sardana | Frappe Helpdesk.
 """
 
 
