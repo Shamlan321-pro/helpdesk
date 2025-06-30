@@ -314,7 +314,7 @@ const agentPortalDropdown = computed(() => [
   {
     icon: "life-buoy",
     label: "Support",
-    onClick: () => window.open("https://t.me/frappedesk"),
+    onClick: () => window.open("https://support.taskforgehq.com"),
   },
   {
     icon: "book-open",
